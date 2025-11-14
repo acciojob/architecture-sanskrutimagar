@@ -1,16 +1,129 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1100">
+<title>Architecture Webpage</title>
 
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        background-color: #e3e9e3;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        width: 1100px;
+        background: #d4dfd4;
+        padding: 20px;
+        border: 1px solid #b7c3b7;
+    }
+
+    .imageContainer img {
+        width: 100%;
+        height: auto;
+        border-radius: 6px;
+    }
+
+    table {
+        width: 100%;
+        margin-top: 30px;
+        border-collapse: collapse;
+        border: 1px solid #a0ac9f;
+        background: #d4dfd4;
+    }
+
+    td {
+        border: 1px solid #a0ac9f;
+        vertical-align: top;
+        padding: 10px;
+    }
+
+    td img {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+    }
+
+    .titleText {
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .subText {
+        text-align: justify;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .smallTitle {
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+</style>
+
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<div class="container">
+
+    <!-- Top Image -->
+    <div class="imageContainer">
+        <img src="https://wallpaperaccess.com/full/4189020.jpg" alt="Architecture">
+    </div>
+
+    <!-- Table -->
+    <table>
+
+        <!-- Row 1 -->
+        <tr>
+            <td width="200">
+                <img src="https://i.pinimg.com/236x/bc/6e/35/bc6e35b5fc1ad8aa52f580acba075d5d.jpg" alt="Architecture">
+            </td>
+
+            <td width="600">
+                <p class="titleText">Unit #5 - Floor Plans</p>
+                <p class="subText">
+                    A. Kitchen <br>
+                    B. Bathroom <br>
+                    C. Using "Slabs" <br>
+                    D. Georgian Home <br>
+                    E. Sketching Assignment #5
+                </p>
+            </td>
+
+            <td width="200">
+                <img src="https://eplakaty.pl/img/towary/1/2022_03/ckm4616-2-jpg.jpg" alt="Architecture">
+            </td>
+        </tr>
+
+        <!-- Row 2 -->
+        <tr>
+            <td width="200">
+                <img src="https://eplakaty.pl/img/towary/1/2022_03/ckm4616-2-jpg.jpg" alt="Architecture">
+            </td>
+
+            <td width="600">
+                <p class="smallTitle">Objective</p>
+                <p class="subText">
+                    Discuss factors that are important in the design of bedrooms. Plan the size 
+                    and location of closets. Implement design considerations for bathrooms. 
+                    Plan a functional kitchen. Identify living room spaces and apply design 
+                    principles. Analyze a dining room layout and design a foyer.
+                </p>
+            </td>
+
+            <td width="200">
+                <img src="https://eplakaty.pl/img/towary/1/2022_03/ckm4616-2-jpg.jpg" alt="Architecture">
+            </td>
+        </tr>
+
+    </table>
+
+</div>
 
 </body>
-
 </html>
